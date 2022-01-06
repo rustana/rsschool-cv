@@ -1,8 +1,12 @@
 .top {
     background-color: #0ba9c1;
-    height: 100px;
+    height: 150px;
     min-width: 750px;
     padding: 0;
+}
+h1{
+    font-size:80px;
+    margin: 0;
 }
 .avatar {
     border-radius: 50%;
@@ -27,7 +31,7 @@
 main {
     display: flex;
 }
-aside {
+ aside {
     background-color: #0ba9c1;
     width: 350px;
     height: 960px;
@@ -36,6 +40,9 @@ aside {
     margin-top: 30px;
     font-size: 20px;
 }
+ aside li{
+     margin: 20px;
+ }
 .content {
     margin: 50px 50px 20px 50px;
     font-size: 20px;
